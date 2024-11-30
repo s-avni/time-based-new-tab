@@ -1,0 +1,11 @@
+{
+  "name": "Time-Based New Tab Override",
+  "description": "Changes the new tab page based on the time of day.",
+  "version": "0.1",
+  "manifest_version": 3,
+  "permissions": ["tabs"],
+  "incognito": "split",
+  "background": {
+    "service_worker": "background.js"
+  }
+}
